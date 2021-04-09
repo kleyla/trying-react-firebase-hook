@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useCollection } from "react-firebase-hooks/firestore";
 import { fb } from "./components/firebase";
-import Services from "./components/services";
+import Services from "./components/Services";
 
 function App() {
   const [datos, setDatos] = useState([]);

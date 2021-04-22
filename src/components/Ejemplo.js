@@ -11,6 +11,11 @@ export const Ejemplo = () => {
 
   console.log(value);
 
+  if (value) {
+    const values = value.docs.filter((val) => val.data().saludo == "chau");
+    console.log(values);
+  }
+
   return (
     <div>
       <h1>Ejemplo</h1>
